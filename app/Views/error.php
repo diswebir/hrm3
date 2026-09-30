@@ -1,0 +1,1 @@
+<div class="card error-card"><span class="error-icon"><?= icon('shield') ?></span><h1><?= h($errorTitle ?? 'عملیات ممکن نیست') ?></h1><p><?= h($errorText ?? 'برای ادامه از منوی اصلی استفاده کنید.') ?></p><a class="button button-primary" href="<?= h(app_url(['page'=>'dashboard'])) ?>"><?= icon('grid') ?> بازگشت به نمای کلی</a></div>

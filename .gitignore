@@ -1,0 +1,17 @@
+# Runtime data and installation secrets
+/storage/*.sqlite
+/storage/*.sqlite-*
+/storage/config.php
+/storage/config.php.tmp
+/storage/installed.lock
+/storage/error.log
+/storage/uploads/*
+!/storage/uploads/.htaccess
+!/storage/.gitkeep
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
